@@ -1,0 +1,32 @@
+{
+  "name": "cordova-stas-test1",
+  "version": "0.0.1",
+  "description": "simple test.",
+  "cordova": {
+    "id": "cordova-stas-test1",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staspl/cordova-test1.git"
+  },
+  "keywords": [
+    "TestOnly",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Stpl <pl.stanislav@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/staspl/cordova-test1/issues"
+  },
+  "homepage": "https://github.com/staspl/cordova-test1/"
+}
