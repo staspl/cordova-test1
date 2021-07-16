@@ -1,4 +1,5 @@
 // Empty constructor
+alert("www\toastyplugin.js-1");
 function ToastyPlugin() {}
 
 // The function that passes work along to native shells
@@ -18,4 +19,8 @@ ToastyPlugin.install = function() {
   window.plugins.toastyPlugin = new ToastyPlugin();
   return window.plugins.toastyPlugin;
 };
+
+alert("www\toastyplugin.js-2");
+
 cordova.addConstructor(ToastyPlugin.install);
+alert("www\toastyplugin.js-3");
